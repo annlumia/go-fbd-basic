@@ -1,0 +1,44 @@
+[
+  {
+    "id": "0",
+    "method": "ADD_R",
+    "inputs": [
+      { "type": "v", "value": "R0" },
+      { "type": "v", "value": "R1" },
+      { "type": "c", "value": 23.5 },
+      { "type": "c", "value": 20.5 }
+    ],
+    "outputs": [{ "type": "v", "value": "R6" }]
+  },
+
+  {
+    "id": "1",
+    "method": "GT_R",
+    "inputs": [
+      { "type": "v", "value": "R4" },
+      { "type": "v", "value": "R1" }
+    ],
+
+    "outputs": [{ "type": "v", "value": "M0" }]
+  },
+  {
+    "id": "2",
+    "method": "EQ_R",
+    "inputs": [
+      { "type": "v", "value": "R4" },
+      { "type": "v", "value": "R1" }
+    ],
+
+    "outputs": [{ "type": "v", "value": "M0" }]
+  },
+  {
+    "id": "3",
+    "method": "GE_R",
+    "inputs": [
+      { "type": "c", "value": -30 },
+      { "type": "v", "value": "R1" }
+    ],
+
+    "outputs": [{ "type": "v", "value": "M0" }]
+  }
+]
